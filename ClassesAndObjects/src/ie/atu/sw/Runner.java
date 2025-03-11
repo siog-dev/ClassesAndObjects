@@ -1,5 +1,5 @@
 package ie.atu.sw;
 
-public class Student {
+public class Runner {
 
 }
