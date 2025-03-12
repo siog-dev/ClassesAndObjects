@@ -25,6 +25,12 @@ public class Runner {
 		s.study();
 		s.execute();
 		
+		//Access the state
+		System.out.println(s.sid);
+		System.out.println(s.name);
+		System.out.println(s.dob);
+		System.out.println(s.registered);
+		
 	}
 	
 }
