@@ -10,7 +10,6 @@ public class Student {
 	 * 
 	 * Public visibility modifier for instance 
 	 * variables used for example purposes ONLY
-	 * 
 	 */
 	
 	public long sid;
@@ -19,7 +18,6 @@ public class Student {
 	
 	public Student() {
 		System.out.println("The ID of the Student object is " + this);
-		//Prints: "The ID of the Student object is ie.atu.sw.Student@372f7a8d"
 	}
 	
 	/*

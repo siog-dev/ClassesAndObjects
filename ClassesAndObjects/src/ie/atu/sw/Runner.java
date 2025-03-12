@@ -1,5 +1,7 @@
 package ie.atu.sw;
 
+import java.time.LocalDate;
+
 public class Runner {
 	
 	public static void main(String[] args) {
@@ -15,7 +17,9 @@ public class Runner {
 		 */
 		
 		System.out.println("Student Object ID from Runner: " + s);
-		//Prints: "Student Object ID from Runner: ie.atu.sw.Student@372f7a8d"
+		s.sid = 99999; //Use dot notation to access instance variables (ctrl + space)
+		s.name = "Joe Murphy";
+		s.dob = LocalDate.now();
 	}
 	
 }
