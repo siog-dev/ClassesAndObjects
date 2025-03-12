@@ -11,8 +11,7 @@ public class Runner {
 		 */
 		Student s = new Student();
 		
-		System.out.println("Student from Runner: " + s);//s is the student identifier
-		
+		System.out.println("Student Object ID from Runner: " + s);
 	}
 	
 }
