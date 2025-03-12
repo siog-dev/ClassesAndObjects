@@ -19,10 +19,12 @@ public class Student {
 	
 	public Student() {
 		System.out.println("The ID of the Student object is " + this);
+		//Prints: "The ID of the Student object is ie.atu.sw.Student@372f7a8d"
 	}
 	
 	/*
 	 * "this" is a keyword = show me my ID
+	 * object ID "Student@" + hex object ID
 	 */
 	
 }

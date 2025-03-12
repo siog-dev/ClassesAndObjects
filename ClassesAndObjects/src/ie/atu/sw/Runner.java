@@ -17,6 +17,7 @@ public class Runner {
 		 */
 		
 		System.out.println("Student Object ID from Runner: " + s);
+		//Prints: "Student Object ID from Runner: ie.atu.sw.Student@372f7a8d"
 	}
 	
 }
