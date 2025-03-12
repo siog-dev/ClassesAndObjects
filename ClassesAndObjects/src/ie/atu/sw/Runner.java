@@ -19,6 +19,12 @@ public class Runner {
 		s.sid = 99999;
 		s.name = "Joe Murphy";
 		s.dob = LocalDate.now();
+		
+		//Also use the dot notation to invoke methods
+		s.register();
+		s.study();
+		s.execute();
+		
 	}
 	
 }
