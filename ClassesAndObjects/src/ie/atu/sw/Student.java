@@ -1,6 +1,6 @@
 package ie.atu.sw;
 
-import java.util.Date; //ctrl, shift + o = import class libraries
+import java.time.LocalDate; //ctrl, shift + o = import class libraries
 
 public class Student {
 	
@@ -11,6 +11,6 @@ public class Student {
 	
 	public long sid;
 	public String name = "Undefined";//not a great name, for example purposes
-	public Date dob;
+	public LocalDate dobi;
 	
 }
