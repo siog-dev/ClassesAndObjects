@@ -9,7 +9,7 @@ public class Runner {
 		 * it is assigned a legal value for it's type:
 		 * "new Student()"
 		 */
-		Student s = new Student();
+		Student s = new Student(); //Use the new keyword against a constructor
 		
 		/*
 		 * The new keyword creates an instance of a class. An
