@@ -27,4 +27,12 @@ public class Student {
 		this.registered = true;
 	}
 	
+	public void study() {
+		System.out.println("Studying...");
+	}
+	
+	public void execute() { //Bad name, execute who? the students?
+		System.out.println("Execute");
+	}
+	
 }
