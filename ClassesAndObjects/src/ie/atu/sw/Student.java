@@ -1,5 +1,7 @@
 package ie.atu.sw;
 
+import java.util.Date; //ctrl, shift + o = import class libraries
+
 public class Student {
 	
 	/*
@@ -9,12 +11,6 @@ public class Student {
 	
 	public long sid;
 	public String name = "Undefined";//not a great name, for example purposes
-	
-	public Date dob; //Date cannot be resolved to a type
-	
-	/*
-	 * Hold "ctrl" + hold "shift" and press "o"
-	 * Select a date class to import
-	 */
+	public Date dob;
 	
 }
