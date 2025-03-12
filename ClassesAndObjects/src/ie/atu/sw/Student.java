@@ -15,6 +15,14 @@ public class Student {
 	
 	public long sid;
 	public String name = "Undefined"; //not a great name, for example purposes
-	public LocalDate dobi;
+	public LocalDate dob;
+	
+	public Student() {
+		System.out.println("The ID of the Student object is " + this);
+	}
+	
+	/*
+	 * "this" is a keyword = show me my ID
+	 */
 	
 }
