@@ -11,6 +11,11 @@ public class Runner {
 		 */
 		Student s = new Student();
 		
+		/*
+		 * The new keyword creates an instance of a class. An
+		 * Instance of a class is called an object.
+		 */
+		
 		System.out.println("Student Object ID from Runner: " + s);
 	}
 	
