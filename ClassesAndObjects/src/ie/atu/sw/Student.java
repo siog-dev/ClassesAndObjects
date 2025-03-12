@@ -15,14 +15,16 @@ public class Student {
 	public long sid;
 	public String name = "Undefined"; //not a great name, for example purposes
 	public LocalDate dob;
+	public boolean registered = false;
+	
 	
 	public Student() {
 		System.out.println("The ID of the Student object is " + this);
 	}
 	
-	/*
-	 * "this" is a keyword = show me my ID
-	 * object ID "Student@" + hex object ID
-	 */
+	//Add some methods - things a class can **do** (behaviours)
+	public void register() {
+		this.registered = true;
+	}
 	
 }
