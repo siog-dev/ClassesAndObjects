@@ -10,4 +10,11 @@ public class Student {
 	public long sid;
 	public String name = "Undefined";//not a great name, for example purposes
 	
+	public Date dob; //Date cannot be resolved to a type
+	
+	/*
+	 * Hold "ctrl" + hold "shift" and press "o"
+	 * Select a date class to import
+	 */
+	
 }
