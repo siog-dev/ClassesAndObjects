@@ -22,7 +22,7 @@ public class Runner {
 		
 		//Also use the dot notation to invoke methods
 		s.register(); //Dot notation can access "protected" visibility method from Student class
-		s.study();
+		s.study(); //Dot notation can access "protected" visibility method from Student Class
 		s.execute();
 		
 		//Access the state

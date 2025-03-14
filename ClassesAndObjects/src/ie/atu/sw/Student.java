@@ -27,7 +27,7 @@ public class Student {
 		this.registered = true;
 	}
 	
-	public void study() {
+	protected void study() { //change to protected visibility
 		System.out.println("Studying...");
 	}
 	
