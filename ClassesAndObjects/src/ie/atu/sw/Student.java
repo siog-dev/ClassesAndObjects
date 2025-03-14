@@ -52,8 +52,19 @@ public class Student {
 		return registered;
 	}
 
-	public void setRegistered(boolean registered) {
-		this.registered = registered;
+	/*
+	 * setRegistered INFO
+	 * 
+	 * registered: instance variable = used to store a value
+	 * 
+	 * setRegistered: method = is updating the value of "registered"
+	 * reg: method parameter = used to receive the value passed to the method when called
+	 * 	(method parameter: temporary variable used within the method)
+	 * the value is then assigned to this.registered
+	 * 
+	 */
+	public void setRegistered(boolean reg) {
+		this.registered = reg;
 	}
 	
 	protected void study() {
