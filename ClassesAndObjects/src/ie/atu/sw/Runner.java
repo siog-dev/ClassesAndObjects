@@ -26,10 +26,10 @@ public class Runner {
 		s.execute();
 		
 		//Access the state
-		System.out.println(s.sid);
-		System.out.println(s.name);
-		System.out.println(s.dob);
-		System.out.println(s.registered);
+		System.out.println(s.getSid());
+		System.out.println(s.getName());
+		System.out.println(s.getDob());
+		System.out.println(s.isRegistered());
 		
 	}
 	
