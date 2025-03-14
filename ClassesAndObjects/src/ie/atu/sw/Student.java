@@ -70,8 +70,10 @@ public class Student {
 		return message; //this is not being "caught" in the Runner class
 	}
 	
-	public void execute() {
+	public boolean execute(String command) {
 		System.out.println("Execute");
+		
+		return command.endsWith("!");
 	}
 	
 }

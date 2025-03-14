@@ -25,7 +25,7 @@ public class Runner {
 		String msg = s.study(2.25d, 8);
 		System.out.println(msg);
 		
-		s.execute();
+		s.execute("Study please...!");
 		
 		//Access the state
 		System.out.println(s.getSid());
