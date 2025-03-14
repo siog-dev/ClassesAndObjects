@@ -22,7 +22,7 @@ public class Runner {
 		
 		//Also use the dot notation to invoke methods
 		s.setRegistered(true); //replace old register method, pass value as true
-		s.study(); //The method study(double, int) in the type Student is not applicable for the arguments ()
+		s.study(2.25d, 8);
 		s.execute();
 		
 		//Access the state
