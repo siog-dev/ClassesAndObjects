@@ -64,8 +64,9 @@ public class Student {
 		this.registered = reg;
 	}
 	
-	protected void study() {
+	protected String study(double hours, int level) {
 		System.out.println("Studying...");
+		
 	}
 	
 	public void execute() {
