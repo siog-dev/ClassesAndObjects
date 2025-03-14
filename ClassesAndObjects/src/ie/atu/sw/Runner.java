@@ -22,7 +22,9 @@ public class Runner {
 		
 		//Also use the dot notation to invoke methods
 		s.setRegistered(true); //replace old register method, pass value as true
-		s.study(2.25d, 8);
+		String msg = s.study(2.25d, 8);
+		System.out.println(msg);
+		
 		s.execute();
 		
 		//Access the state

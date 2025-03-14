@@ -67,7 +67,7 @@ public class Student {
 	protected String study(double hours, int level) {
 		double total = hours * level;
 		String message = "Studying..." + total; //local scope, generic name ("message") sufficient
-		return message;
+		return message; //this is not being "caught" in the Runner class
 	}
 	
 	public void execute() {
