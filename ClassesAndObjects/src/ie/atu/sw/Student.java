@@ -65,8 +65,9 @@ public class Student {
 	}
 	
 	protected String study(double hours, int level) {
-		System.out.println("Studying...");
-		
+		double total = hours * level;
+		String message = "Studying..." + total; //local scope, generic name ("message") sufficient
+		return message;
 	}
 	
 	public void execute() {
