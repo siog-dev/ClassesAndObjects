@@ -7,9 +7,6 @@ public class Student {
 	/*
 	 * Define some state for the class Student.
 	 * These are all **instance variables**
-	 * 
-	 * Public visibility modifier for instance 
-	 * variables used for example purposes ONLY
 	 */
 	
 	private long sid;
