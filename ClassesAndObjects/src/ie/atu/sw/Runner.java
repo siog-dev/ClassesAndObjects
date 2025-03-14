@@ -16,13 +16,13 @@ public class Runner {
 		System.out.println("Student Object ID from Runner: " + s);
 		
 		//Use the dot notation to access features
-		s.sid = 99999;
+		s.sid = 99999; 
 		s.name = "Joe Murphy";
 		s.dob = LocalDate.now();
 		
 		//Also use the dot notation to invoke methods
-		s.register(); //Dot notation can access "protected" visibility method from Student class
-		s.study(); //Dot notation can access "protected" visibility method from Student Class
+		s.register();
+		s.study();
 		s.execute();
 		
 		//Access the state
