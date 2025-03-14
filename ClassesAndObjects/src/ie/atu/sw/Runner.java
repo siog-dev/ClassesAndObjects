@@ -25,7 +25,14 @@ public class Runner {
 		String msg = s.study(2.25d, 8);
 		System.out.println(msg);
 		
-		s.execute("Study please...!"); //true, my string ends with an exclamation mark
+		/*
+		 * call a method, use return type to initialize a variable
+		 * boolean type with an identifier
+		 * res is assigned a legal value for the type
+		 */
+		
+		boolean res = s.execute("Study please...!"); //true, my string ends with an exclamation mark
+		System.out.println("Has Prefix: " + res);
 		
 		//Access the state
 		System.out.println(s.getSid());
