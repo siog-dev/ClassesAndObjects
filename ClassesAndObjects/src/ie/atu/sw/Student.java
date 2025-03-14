@@ -71,9 +71,9 @@ public class Student {
 	}
 	
 	public boolean execute(String command) {
-		System.out.println("Execute");
+		System.out.println("Executing " + command);
 		
-		return command.endsWith("!");
+		return command.endsWith("!"); //my string ends with an exclamation mark, true or false?
 	}
 	
 }
