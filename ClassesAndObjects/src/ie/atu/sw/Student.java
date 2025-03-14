@@ -23,7 +23,7 @@ public class Student {
 	}
 	
 	//Add some methods - things a class can **do** (behaviours)
-	public void register() {
+	protected void register() { //protected visibility will still be visible in Runner class
 		this.registered = true;
 	}
 	

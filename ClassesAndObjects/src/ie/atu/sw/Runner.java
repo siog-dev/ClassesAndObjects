@@ -21,7 +21,7 @@ public class Runner {
 		s.dob = LocalDate.now();
 		
 		//Also use the dot notation to invoke methods
-		s.register();
+		s.register(); //Dot notation can access "protected" visibility method from Student class
 		s.study();
 		s.execute();
 		
