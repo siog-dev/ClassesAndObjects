@@ -12,7 +12,11 @@ public class Student {
 	 * variables used for example purposes ONLY
 	 */
 	
-	public long sid;
+	private long sid; //change instance variable to private, state should be private
+	/*
+	 * error: "The value of the field Student.sid is not used"
+	 * private sid no longer visible in Runner, no longer usable as a value
+	 */
 	public String name = "Undefined";
 	public LocalDate dob;
 	public boolean registered = false;

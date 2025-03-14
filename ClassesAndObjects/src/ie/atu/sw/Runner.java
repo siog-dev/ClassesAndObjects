@@ -16,7 +16,7 @@ public class Runner {
 		System.out.println("Student Object ID from Runner: " + s);
 		
 		//Use the dot notation to access features
-		s.sid = 99999; 
+		s.sid = 99999; //error introduced, private instance variable in Student class no longer visible in Runner
 		s.name = "Joe Murphy";
 		s.dob = LocalDate.now();
 		
