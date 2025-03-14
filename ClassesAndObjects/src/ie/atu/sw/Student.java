@@ -22,9 +22,8 @@ public class Student {
 		System.out.println("The ID of the Student object is " + this);
 	}
 	
-	/*
-	 * Source>Generate Getters and Setters>Select All>Set Access Modifier to Public>Generate
-	 */
+	//Add some methods - things a class can **do** (behaviors)
+
 	public long getSid() {
 		return sid;
 	}
@@ -55,11 +54,6 @@ public class Student {
 
 	public void setRegistered(boolean registered) {
 		this.registered = registered;
-	}
-
-	//Add some methods - things a class can **do** (behaviours)
-	protected void register() {
-		this.registered = true;
 	}
 	
 	protected void study() {
