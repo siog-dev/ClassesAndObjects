@@ -67,7 +67,7 @@ public class Student {
 	protected String study(double hours, int level) {
 		double total = hours * level;
 		String message = "Studying..." + total; //local scope, generic name ("message") sufficient
-		return message; //this is not being "caught" in the Runner class
+		return message;
 	}
 	
 	public boolean execute(String command) {
@@ -75,5 +75,20 @@ public class Student {
 		
 		return command.endsWith("!"); //my string ends with an exclamation mark, true or false?
 	}
+	
+	/*
+	 * We have a method passing primitive types (doubles, ints)
+	 * and returning object types (strings)
+	 * 
+	 * We have a method passing an object type (string)
+	 * and returning a primitive type (boolean)
+	 * 
+	 * dot notation to access a feature name, an object method name
+	 * passing in the correct parameters (round brackets = method parameters, curly brackets = scope)
+	 * 
+	 * constructor is just a specialized method that cannot have a return type
+	 * it must match the name of the class
+	 * 
+	 */
 	
 }
