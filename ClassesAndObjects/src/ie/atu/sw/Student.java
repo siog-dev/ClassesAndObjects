@@ -13,13 +13,9 @@ public class Student {
 	 */
 	
 	private long sid; //change instance variable to private, state should be private
-	/*
-	 * error: "The value of the field Student.sid is not used"
-	 * private sid no longer visible in Runner, no longer usable as a value
-	 */
-	public String name = "Undefined";
-	public LocalDate dob;
-	public boolean registered = false;
+	private String name = "Undefined";
+	private LocalDate dob;
+	private boolean registered = false;
 	
 	
 	public Student() {
