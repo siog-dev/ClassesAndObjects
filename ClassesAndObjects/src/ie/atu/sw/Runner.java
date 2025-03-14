@@ -16,9 +16,9 @@ public class Runner {
 		System.out.println("Student Object ID from Runner: " + s);
 		
 		//Use the dot notation to access features
-		s.sid = 99999; //error introduced, private instance variable in Student class no longer visible in Runner
-		s.name = "Joe Murphy"; //error introduced
-		s.dob = LocalDate.now(); //error introduced
+		s.sid = 99999;
+		s.name = "Joe Murphy";
+		s.dob = LocalDate.now();
 		
 		//Also use the dot notation to invoke methods
 		s.register();
@@ -26,10 +26,10 @@ public class Runner {
 		s.execute();
 		
 		//Access the state
-		System.out.println(s.sid); //error
-		System.out.println(s.name); //error
-		System.out.println(s.dob); //error
-		System.out.println(s.registered); //error
+		System.out.println(s.sid);
+		System.out.println(s.name);
+		System.out.println(s.dob);
+		System.out.println(s.registered);
 		
 	}
 	

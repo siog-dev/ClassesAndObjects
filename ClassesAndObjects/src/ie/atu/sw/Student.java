@@ -12,7 +12,7 @@ public class Student {
 	 * variables used for example purposes ONLY
 	 */
 	
-	private long sid; //change instance variable to private, state should be private
+	private long sid;
 	private String name = "Undefined";
 	private LocalDate dob;
 	private boolean registered = false;
