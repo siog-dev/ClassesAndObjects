@@ -16,12 +16,12 @@ public class Runner {
 		System.out.println("Student Object ID from Runner: " + s);
 		
 		//Use the dot notation to access features
-		s.sid = 99999;
-		s.name = "Joe Murphy";
-		s.dob = LocalDate.now();
+		s.setSid(9999);
+		s.setName("Joe Murphy");
+		s.setDob(LocalDate.now());
 		
 		//Also use the dot notation to invoke methods
-		s.register();
+		s.setRegistered(true); //replace old register method, pass value as true
 		s.study();
 		s.execute();
 		
